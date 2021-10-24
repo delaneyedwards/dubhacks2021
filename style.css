@@ -31,12 +31,12 @@ button {
   width: 250px;
   background-color: #bbb;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+  position: absolute;
   margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 main {
