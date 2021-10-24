@@ -13,23 +13,24 @@ footer {
   flex-direction: row;
   align-content: center;
   flex-wrap: wrap;
-  background-color: rgb(82, 82, 197);
+  background-color: rgba(99, 142, 207, 1);
   bottom: 0;
   width: 100%;
+  height: 50px;
 }
 
 
 button {
   margin-left: auto;
   margin-right: auto;
-  color: rgb(82, 82, 197);
+  color: white;
 }
 
 .circle {
   text-align: center;
   height: 250px;
   width: 250px;
-  background-color: #bbb;
+  background-color: rgba(99, 142, 207, 1);
   border-radius: 50%;
   position: absolute;
   margin: auto;
@@ -41,4 +42,8 @@ button {
 
 main {
   height: 100vh;
+}
+
+.friends {
+
 }
